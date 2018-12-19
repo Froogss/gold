@@ -1,0 +1,17 @@
+{
+	"Tokens" : {
+		"NewBlue" : "Mzg0MTcxNTYwMjI0ODE3MTUy.Dk1uFg.8xW5qlY49XwHv3qXrWgW_KsILpc"
+		},
+		
+	"starting_commands" : [
+		"BaseCommands"
+		],
+
+    "logging" : {
+      "filename": "logile.log",
+      "format": "%(asctime)s - %(levelname)s:%(module)s %(message)s",
+      "datefmt": "%d/%m/%y:%H:%S",
+      "level": "info"
+    }
+
+}

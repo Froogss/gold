@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NewBlue", "NewBlue.pyproj", "{3BC8E780-3A4D-4AD5-8BE7-840F1774A21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BC8E780-3A4D-4AD5-8BE7-840F1774A21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC8E780-3A4D-4AD5-8BE7-840F1774A21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {947581F0-EE7D-4BE4-A784-51EFE4FE6CEC}
+	EndGlobalSection
+EndGlobal
