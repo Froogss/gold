@@ -1,6 +1,7 @@
-
+import datetime
 class Event:
-    def __init__(self, ctx, name, message, *mentions):
+    def __init__(self, ctx, name, message, minutes, *mentions):
+        self.event_call_time = datetime.datetime.now()+datetime.timedelta(minutes=minutes)
         self.name = name
         self.channel = ctx.channel
         self.mentions = mentions

@@ -16,7 +16,14 @@ class Cog:
     @commands.command()
     async def create_event(self, ctx, *message):
         split = [item.strip(" ") for item in message]
-        bot.event_runner.events.append(Event(ctx, split[0], split[1], split[2:]))
+        name = split[0]
+        event_message = split[1]
+        mentions = split[2:]
+        bot.event_runner.events.append(Event(ctx, name, event_message, mentions))
+
+    @commands.command()
+    async def list_events(self, ctx):
+        bot.say(", ".join([f"{event.name}: {event.event_call_time}" for event in bot.event_runner.events]))
 
 
 def setup(bot):
