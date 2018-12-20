@@ -1,0 +1,153 @@
+20/12/18:17:13 - INFO:client logging in using static token
+20/12/18:17:13 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:13 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:09 - INFO:client logging in using static token
+20/12/18:17:10 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:10 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:44 - INFO:client logging in using static token
+20/12/18:17:44 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:44 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:45 - INFO:client logging in using static token
+20/12/18:17:45 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:45 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:56 - INFO:client logging in using static token
+20/12/18:17:57 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:57 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:37 - INFO:client logging in using static token
+20/12/18:17:38 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:38 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:40 - INFO:client logging in using static token
+20/12/18:17:41 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:41 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:51 - INFO:client logging in using static token
+20/12/18:17:52 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:52 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:54 - ERROR:BlueBot Failed to load extension BaseCommands
+20/12/18:17:23 - INFO:client logging in using static token
+20/12/18:17:24 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:24 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:26 - ERROR:BlueBot Failed to load extension BaseCommands
+20/12/18:17:56 - INFO:client logging in using static token
+20/12/18:17:56 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:56 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:42 - INFO:client logging in using static token
+20/12/18:17:42 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:42 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:13 - INFO:client logging in using static token
+20/12/18:17:13 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:13 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:19 - INFO:client logging in using static token
+20/12/18:17:19 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:19 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:20 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:17:46 - INFO:client logging in using static token
+20/12/18:17:47 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:47 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:00 - INFO:client logging in using static token
+20/12/18:17:01 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:01 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:04 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:17:35 - INFO:client logging in using static token
+20/12/18:17:35 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:35 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:38 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:17:39 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:49 - INFO:client logging in using static token
+20/12/18:17:49 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:49 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:51 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:05 - INFO:client logging in using static token
+20/12/18:17:06 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:06 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:07 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:17:09 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:52 - INFO:client logging in using static token
+20/12/18:17:52 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:52 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:51 - INFO:client logging in using static token
+20/12/18:17:51 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:51 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:53 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:17:29 - INFO:client logging in using static token
+20/12/18:17:29 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:29 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:14 - INFO:client logging in using static token
+20/12/18:17:14 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:14 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:12 - INFO:client logging in using static token
+20/12/18:17:13 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:13 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:15 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:42 - INFO:client logging in using static token
+20/12/18:17:42 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:42 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:45 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:44 - INFO:client logging in using static token
+20/12/18:17:44 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:44 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:46 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:37 - INFO:client logging in using static token
+20/12/18:17:37 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:37 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:39 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:47 - INFO:client logging in using static token
+20/12/18:17:48 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:48 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:50 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:17:38 - INFO:client logging in using static token
+20/12/18:17:38 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:17:38 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:17:40 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:26 - INFO:client logging in using static token
+20/12/18:18:27 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:27 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:29 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:56 - INFO:client logging in using static token
+20/12/18:18:56 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:56 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:58 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:45 - INFO:client logging in using static token
+20/12/18:18:45 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:45 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:49 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:50 - INFO:client logging in using static token
+20/12/18:18:51 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:51 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:53 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:51 - INFO:client logging in using static token
+20/12/18:18:51 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:51 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:54 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:18:45 - INFO:client logging in using static token
+20/12/18:18:45 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:18:45 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:18:47 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:19:56 - INFO:client logging in using static token
+20/12/18:19:56 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:19:56 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:19:58 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:19:28 - INFO:client logging in using static token
+20/12/18:19:28 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:19:28 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:19:30 - INFO:gateway Unhandled event PRESENCES_REPLACE
+20/12/18:19:32 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:19:14 - ERROR:base_events Task exception was never retrieved
+future: <Task finished coro=<EventRunner.runner() done, defined at /home/Luke/discord/blue/newblue/EventRunner/EventRunner.py:13> exception=NameError("name 'events' is not defined",)>
+Traceback (most recent call last):
+  File "/home/Luke/discord/blue/newblue/EventRunner/EventRunner.py", line 16, in runner
+    for i in events:
+NameError: name 'events' is not defined
+20/12/18:19:14 - INFO:client logging in using static token
+20/12/18:19:14 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:19:14 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:19:18 - INFO:BlueBot successfully loaded extension BaseCommands
+20/12/18:20:56 - ERROR:base_events Task exception was never retrieved
+future: <Task finished coro=<EventRunner.runner() done, defined at /home/Luke/discord/blue/newblue/EventRunner/EventRunner.py:13> exception=NameError("name 'events' is not defined",)>
+Traceback (most recent call last):
+  File "/home/Luke/discord/blue/newblue/EventRunner/EventRunner.py", line 16, in runner
+    for i in events:
+NameError: name 'events' is not defined
+20/12/18:20:56 - INFO:client logging in using static token
+20/12/18:20:56 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+20/12/18:20:56 - INFO:gateway sent the identify payload to create the websocket
+20/12/18:20:58 - INFO:BlueBot successfully loaded extension BaseCommands
