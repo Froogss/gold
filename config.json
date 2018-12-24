@@ -4,7 +4,8 @@
 		},
 		
 	"starting_commands" : [
-		"BaseCommands"
+		"BaseCommands",
+		"ErrorHandler"
 		],
 
     "logging" : {
@@ -12,6 +13,11 @@
       "format": "%(asctime)s - %(levelname)s:%(module)s %(message)s",
       "datefmt": "%d/%m/%y:%H:%S",
       "level": "info"
+    },
+    
+    "waifu": {
+	    "updated_to": ""
+
     }
 
 }

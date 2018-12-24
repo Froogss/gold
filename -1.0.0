@@ -1,0 +1,7 @@
+Requirement already satisfied: discord in /usr/local/lib/python3.6/dist-packages (0.0.2)
+Requirement already satisfied: discord.py in /usr/local/lib/python3.6/dist-packages (from discord) (0.16.12)
+Requirement already satisfied: websockets<4.0,>=3.1 in /usr/local/lib/python3.6/dist-packages (from discord.py->discord) (3.4)
+Requirement already satisfied: aiohttp<1.1.0,>=1.0.0 in /usr/local/lib/python3.6/dist-packages (from discord.py->discord) (1.0.5)
+Requirement already satisfied: chardet in /usr/lib/python3/dist-packages (from aiohttp<1.1.0,>=1.0.0->discord.py->discord) (3.0.4)
+Requirement already satisfied: multidict>=2.0 in /usr/local/lib/python3.6/dist-packages (from aiohttp<1.1.0,>=1.0.0->discord.py->discord) (4.5.2)
+Requirement already satisfied: async-timeout in /usr/local/lib/python3.6/dist-packages (from aiohttp<1.1.0,>=1.0.0->discord.py->discord) (3.0.1)
