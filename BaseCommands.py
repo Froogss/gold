@@ -57,11 +57,12 @@ class Cog:
                 continue
             print("getting claims")
             async for message in channel.history(limit=None, after=after):
-                #print(message.content)
                 res = re.search(r". (.*) and (.*) are now married! .", message.content)
                 if res:
-                    print(res.group(2))
-                    self.bot.cursor.execute("""INSERT INTO waifuClaims values (?, ?, ?)""", [message.author.id, res.group(2), message.created_at])
+                    #see if the user still has the same username
+                    users = [user.id for user in ctx.message.guild.users if user.name == re.group(1)]
+                    if len(users) == 1:
+                        self.bot.cursor.execute("""INSERT INTO waifuClaims values (?, ?, ?)""", [user.id, res.group(2), message.created_at])
             self.bot.conn.commit()
 
     @commands.command(pass_context=True)

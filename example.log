@@ -1054,3 +1054,11 @@ AttributeError: 'tuple' object has no attribute 'split'
 24/12/18:14:31 - WARNING:gateway Unknown event PRESENCES_REPLACE.
 24/12/18:14:32 - INFO:BlueBot successfully loaded extension BaseCommands
 24/12/18:14:32 - INFO:BlueBot successfully loaded extension ErrorHandler
+24/12/18:17:26 - INFO:client logging in using static token
+24/12/18:17:27 - INFO:gateway Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+24/12/18:17:27 - INFO:gateway Shard ID None has sent the IDENTIFY payload.
+24/12/18:17:27 - INFO:gateway Shard ID None has connected to Gateway: gateway-prd-main-thb6, discord-sessions-prd-1-1 (Session ID: 77a42c38bd16a315815b6af66d4c4d1c).
+24/12/18:17:29 - INFO:BlueBot successfully loaded extension BaseCommands
+24/12/18:17:29 - INFO:BlueBot successfully loaded extension ErrorHandler
+24/12/18:17:40 - INFO:client Cleaning up event loop.
+24/12/18:17:40 - INFO:gateway Websocket closed with 1000 (), cannot reconnect.
