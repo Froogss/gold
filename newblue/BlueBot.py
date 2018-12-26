@@ -29,15 +29,13 @@ class BlueBot(commands.Bot):
 
     async def on_message(self, message):
         await self.process_commands(message)
-        if str(message.author.id) in ["143092974316683264", "4326102922342587392", "522749851922989068"]:
-            split_message = message.content.split(" ")
-            if False:
-                match = re.search(r'. (.*) and (.*) are now married! .', message.content)
-                user_id = str(message.author.id)
-                character_name =  match.group(2)
+        if str(message.author.id) in ["4326102922342587392", "522749851922989068"]:
+            res = re.search(r". .* and (.*) are now married! .")
+            if res:
+                self.bot.cursor.execute("""INSERT INTO waifuClaims values                                                   (?, ?, ?) """,
+                                            str(ctx.message.author.id), res.group(1), ctx.message.created_at)
+                self.bot.cursor.commit()
 
-                self.cursor.execute("""INSERT INTO waifuClaims values (?, ?, ?)""", [user_id, character_name, message.created_at])
-                self.conn.commit()
     def load_config(self):
         print('/'.join(os.path.abspath(__main__.__file__).split(r'/')[:-1]))
         with open('/'.join(os.path.abspath(__main__.__file__).split(r'/')[:-1]) + "/config.json", "r") as file:
