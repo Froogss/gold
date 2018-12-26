@@ -60,9 +60,10 @@ class Cog:
                 res = re.search(r". (.*) and (.*) are now married! .", message.content)
                 if res:
                     #see if the user still has the same username
-                    users = [user.id for user in ctx.message.guild.users if user.name == re.group(1)]
+                    print(res.group(1).strip('*'))
+                    users = [user.id for user in ctx.message.guild.members if user.name == res.group(1).strip('*')]
                     if len(users) == 1:
-                        self.bot.cursor.execute("""INSERT INTO waifuClaims values (?, ?, ?)""", [user.id, res.group(2), message.created_at])
+                        self.bot.cursor.execute("""INSERT INTO waifuClaims values (?, ?, ?)""", [users[0], res.group(2), message.created_at])
             self.bot.conn.commit()
 
     @commands.command(pass_context=True)
@@ -70,8 +71,22 @@ class Cog:
         if id is None:
             id = ctx.message.author.id
 
-        self.bot.cursor.execute("""select * from waifuClaims where user_id = ?""", [id])
-        await ctx.channel.send(self.bot.cursor.fetchall())
+        self.bot.cursor.execute("""select * from waifuClaims where user_id = ? order by date""", [id])
+        
+        stats = [f"{item[1]}: {str(item[2])[:-7]}\n" for item in self.bot.cursor.fetchall()]
+        cur_len = 0
+        temp = []
+        for stat in stats:
+            if (cur_len + len(stat)) > 2000:
+                await ctx.channel.send("".join(temp))
+                temp = [stat]
+                await asyncio.sleep(1)
+
+            else:
+                temp.append(stat)
+
+        await ctx.channel.send("".join(temp))
+        
 
 def setup(bot):
     bot.add_cog(Cog(bot))
