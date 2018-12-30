@@ -1,0 +1,10 @@
+{
+	"Claim Reminder": {  
+    "channel_id": null,
+    "role_ids": {
+      "claim_role_id": null,
+      "roll_role_id": null
+    },
+    "claim_start":  "00:22:00"
+	}
+}
