@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61fd6f25-2df9-48a3-8a30-f550c07a0553}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>
+    </StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="core.py" />
+    <Compile Include="ErrorHandler.py" />
+    <Compile Include="newblue\BlueBot.py" />
+    <Compile Include="newblue\commands\BaseCommands\eval.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="newblue\commands\BaseCommands\get_old_claims.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="newblue\Commands\BaseCommands\load_extension.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="newblue\Commands\BaseCommands\create_event.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="newblue\commands\BaseCommands\md.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="newblue\commands\BaseCommands\reload_extensions.py" />
+    <Compile Include="newblue\EventRunner\Event.py" />
+    <Compile Include="newblue\EventRunner\EventRunner.py" />
+    <Compile Include="newblue\EventRunner\Events\ClaimReminderEvent.py" />
+    <Compile Include="newblue\EventRunner\EventType.py" />
+    <Compile Include="newblue\EventRunner\Reminder.py" />
+    <Compile Include="test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\config" />
+    <Content Include=".git\description" />
+    <Content Include=".git\HEAD" />
+    <Content Include=".git\hooks\applypatch-msg.sample" />
+    <Content Include=".git\hooks\commit-msg.sample" />
+    <Content Include=".git\hooks\fsmonitor-watchman.sample" />
+    <Content Include=".git\hooks\post-update.sample" />
+    <Content Include=".git\hooks\pre-applypatch.sample" />
+    <Content Include=".git\hooks\pre-commit.sample" />
+    <Content Include=".git\hooks\pre-push.sample" />
+    <Content Include=".git\hooks\pre-rebase.sample" />
+    <Content Include=".git\hooks\pre-receive.sample" />
+    <Content Include=".git\hooks\prepare-commit-msg.sample" />
+    <Content Include=".git\hooks\update.sample" />
+    <Content Include=".git\index" />
+    <Content Include=".git\info\exclude" />
+    <Content Include=".git\logs\HEAD" />
+    <Content Include=".git\logs\refs\heads\master" />
+    <Content Include=".git\logs\refs\remotes\origin\HEAD" />
+    <Content Include=".git\objects\pack\pack-466b22822200a513eeb029758b05bc13a61fddf0.idx" />
+    <Content Include=".git\objects\pack\pack-466b22822200a513eeb029758b05bc13a61fddf0.pack" />
+    <Content Include=".git\packed-refs" />
+    <Content Include=".git\refs\heads\master" />
+    <Content Include=".git\refs\remotes\origin\HEAD" />
+    <Content Include=".vs\gold\v15\.suo" />
+    <Content Include=".vs\NewBlue\v15\.suo" />
+    <Content Include="gold.pyproj" />
+    <Content Include="newblue\config.json" />
+    <Content Include="newblue\EventRunner\Events\opts.json" />
+    <Content Include="newblue\EventRunner\__pycache__\Event.cpython-36.pyc" />
+    <Content Include="newblue\EventRunner\__pycache__\EventRunner.cpython-36.pyc" />
+    <Content Include="newblue\__pycache__\BlueBot.cpython-35.pyc" />
+    <Content Include="newblue\__pycache__\BlueBot.cpython-36.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git" />
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\logs\refs\" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes\" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\objects\" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\refs\" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes\" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".vs\" />
+    <Folder Include=".vs\gold\" />
+    <Folder Include=".vs\gold\v15" />
+    <Folder Include=".vs\NewBlue\" />
+    <Folder Include=".vs\NewBlue\v15" />
+    <Folder Include="newblue" />
+    <Folder Include="newblue\Commands\" />
+    <Folder Include="newblue\commands\BaseCommands\" />
+    <Folder Include="newblue\EventRunner" />
+    <Folder Include="newblue\EventRunner\Events" />
+    <Folder Include="newblue\EventRunner\__pycache__" />
+    <Folder Include="newblue\__pycache__" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

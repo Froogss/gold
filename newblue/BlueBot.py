@@ -23,7 +23,7 @@ class BlueBot(commands.Bot):
 
     async def on_ready(self):
         print("ready")
-        self.load_starting_commands()
+        self.load_base_commands()
         for com in self.commands:
             print(com)
 
@@ -42,8 +42,7 @@ class BlueBot(commands.Bot):
             self.cfg = json.loads(file.read())
 
     def load_starting_commands(self):
-        for cog in self.cfg["starting_commands"]:
-            print(cog)
+        # Load each cog from ./Commands/BaseCommands
+        for cog_file in [[file[:-3] for file in os.listdir('./Commands/BaseCommands') if file != '__init__.py']]:
             self.load_extension(f"{cog}")
-            print(f"loaded {cog}")
             logging.info("successfully loaded extension {}".format(cog))
