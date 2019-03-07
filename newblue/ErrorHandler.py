@@ -1,6 +1,8 @@
 import sys
-from discord.ext import commands
+
 import discord
+from discord.ext import commands
+
 
 class CommandErrorHandler:
     def __init__(self, bot):
@@ -18,6 +20,7 @@ class CommandErrorHandler:
 
         if isinstance(error, commands.NotOwner):
             await ctx.channel.send("`Error: You are not an owner`")
+
 
 def setup(bot):
     bot.add_cog(CommandErrorHandler(bot))
